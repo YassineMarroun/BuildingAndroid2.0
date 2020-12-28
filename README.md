@@ -5,4 +5,3 @@ Increasing the complexity of projects.
   - Seeing the differences in nomenclature between Kotlin and Java.
 
 01.KidsOperationsApp
-  - 
