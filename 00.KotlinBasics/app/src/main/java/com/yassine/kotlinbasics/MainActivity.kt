@@ -8,7 +8,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        variablesAndConstants();
+        //variablesAndConstants();
+        dataTypes()
     }
 
     /*
@@ -38,5 +39,40 @@ class MainActivity : AppCompatActivity() {
         //A constant cannot change its value
         val myFirstConstant = "Fixed value"
         println(myFirstConstant)
+
+        val mySecondConstant = myFirstVariable
+        println(mySecondConstant)
+    }
+
+    /*
+    Here we talk about data types
+     */
+    private fun dataTypes() {
+
+        //String
+        val myString = "Hello"
+        val myString2 = "How are you?"
+        val myString3 = myString + " " + myString2
+        println(myString3)
+
+        //Integers (Byte, Short, Int, Long)
+        val myInt = 1
+        val myInt2 = 2
+        val myInt3 = myInt + myInt2
+        println(myInt3)
+
+        //Decimals (Float, Double)
+        val myFloat = 1.5f
+        val myDouble = 1.5
+        val myDouble2 = 2.6
+        val myDouble3 = 1
+        val myDouble4 = myDouble + myDouble2 + myDouble3
+        println(myDouble4)
+
+        //Boolean
+        val myBool = true
+        val myBool2 = false
+        println(myBool == myBool2)
+        println(myBool && myBool2)
     }
 }
