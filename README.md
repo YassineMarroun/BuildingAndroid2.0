@@ -5,6 +5,7 @@ Increasing the complexity of projects.
   - Seeing the differences in nomenclature between Kotlin and Java.
   - Basic concepts regarding the naming of variables and constants.
   - Data types and assignment.
+  - Using IF statement.
 
 01.KidsOperationsApp
   - 

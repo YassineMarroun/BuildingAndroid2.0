@@ -8,8 +8,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //variablesAndConstants();
-        dataTypes()
+        //variablesAndConstants()
+        //dataTypes()
+        ifStatement()
     }
 
     /*
@@ -74,5 +75,32 @@ class MainActivity : AppCompatActivity() {
         val myBool2 = false
         println(myBool == myBool2)
         println(myBool && myBool2)
+    }
+
+    /*
+    Here we talk about if statement
+     */
+    private fun ifStatement() {
+        val myNumber = 5;
+
+       //Conditional operators
+        // > greater than
+        // < less than
+        // >= greater or equal to
+        // <= less than or equal to
+        // == equal
+        // != unequal
+
+        //Logical operators
+        // && and operator
+        // || or operator
+        // ! not operator
+
+        if(myNumber <= 10 && myNumber > 5) {
+            println("$myNumber is less or equal to 10 and greater than 5")
+        } else {
+            //Else sentence
+            println("$myNumber is greater than 10 or less or equal to 5")
+        }
     }
 }
