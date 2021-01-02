@@ -6,7 +6,8 @@ Increasing the complexity of projects.
   - Basic concepts regarding the naming of variables and constants.
   - Data types and assignment.
   - Using IF / WHEN statements.
-  - Using Arrays: Adding / Accessing / Modifying / Deleting / Iterating with For each.
+  - Using ARRAYS: Adding / Accessing / Modifying / Deleting / Iterating with For each.
+  - Viewing how operations are declared for MAPS.
 
 01.KidsOperationsApp
   - 

@@ -12,7 +12,8 @@ class MainActivity : AppCompatActivity() {
         //dataTypes()
         //ifStatement()
         //whenStatement()
-        arrays()
+        //arrays()
+        maps()
     }
 
     /*
@@ -154,7 +155,7 @@ class MainActivity : AppCompatActivity() {
         //Creating an Array
         val myArray = arrayListOf<String>()
 
-        //Adding data one by one
+        //Adding elements one by one
         myArray.add(name)
         myArray.add(surname)
         myArray.add(company)
@@ -165,15 +166,15 @@ class MainActivity : AppCompatActivity() {
         myArray.addAll(listOf("Hello", "Welcome"))
         println(myArray)
 
-        //Accessing data
+        //Accessing element
         val myCompany = myArray[2]
         println(myCompany)
 
-        //Modifying data
+        //Modifying element
         myArray[5] = "Bye"
         println(myArray)
 
-        //Deleting data
+        //Deleting element
         myArray.removeAt(4)
         println(myArray)
 
@@ -192,5 +193,36 @@ class MainActivity : AppCompatActivity() {
         //Remove all elements from an array
         println(myArray.clear())
         println(myArray.count())
+    }
+
+    /*
+    Here we talk about Map, collection of elements
+     */
+    private fun maps() {
+
+        //Syntax
+        var myMap: Map<String, Int> = mapOf()
+        println(myMap)
+
+        //Adding elements
+        myMap = mutableMapOf("Yassine" to 1, "Nadia" to 2, "Aylan" to 3)
+        println(myMap)
+
+        //Add a single value
+        myMap["Sara"] = 4
+        myMap.put("Cristian", 5)
+        println(myMap)
+
+        //Accessing element
+        println(myMap["Aylan"])
+
+        //Modifying element
+        myMap.put("Cristian", 8)
+        myMap["Yassine"] = 9
+        println(myMap)
+
+        //Deleting element
+        myMap.remove("Yassine")
+        println(myMap)
     }
 }
