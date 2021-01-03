@@ -13,7 +13,8 @@ class MainActivity : AppCompatActivity() {
         //ifStatement()
         //whenStatement()
         //arrays()
-        maps()
+        //maps()
+        loops()
     }
 
     /*
@@ -224,5 +225,52 @@ class MainActivity : AppCompatActivity() {
         //Deleting element
         myMap.remove("Yassine")
         println(myMap)
+    }
+
+    /*
+    Here we talk about loops
+     */
+    private fun loops() {
+
+        val myArray = listOf("Hello", "Welcome", "Bye")
+        val myMap = mutableMapOf("Yassine" to 1, "Nadia" to 2, "Aylan" to 3)
+
+        //For loop
+        for (myString in myArray) {
+            println(myString)
+        }
+
+        for (myElement in myMap) {
+            println("${myElement.key}-${myElement.value}")
+        }
+
+        for (x in 0..10) {
+            println(x)
+        }
+
+        for (x in 0 until 10) {
+            println(x)
+        }
+
+        for (x in 0..10 step 2) {
+            println(x)
+        }
+
+        for (x in 10 downTo 0 step 3) {
+            println(x)
+        }
+
+        val myNumericArray = (0..20)
+        for (myNum in myNumericArray) {
+            println(myNum)
+        }
+
+        //While loop
+        var x = 0
+
+        while (x < 10) {
+            println(x)
+            x += 2
+        }
     }
 }
