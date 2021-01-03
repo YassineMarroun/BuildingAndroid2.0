@@ -11,6 +11,7 @@ Increasing the complexity of projects.
   - Viewing the declaration of FOR and WHILE loops.
   - Using NULL Safety.
   - Declaration of methods with input parameters and with a return value.
+  - Adding classes and functionality to the project.
 
 01.KidsOperationsApp
   - 

@@ -16,7 +16,8 @@ class MainActivity : AppCompatActivity() {
         //maps()
         //loops()
         //nullSafety()
-        methods()
+        //methods()
+        classes()
     }
 
     /*
@@ -338,5 +339,22 @@ class MainActivity : AppCompatActivity() {
     //Function with a return value
     private fun sumTwoNumbers(firstNumber: Int, secondNumber: Int) :Int {
         return firstNumber + secondNumber
+    }
+
+    /*
+    Here we talk about classes
+     */
+    private fun classes() {
+
+        val yassine = Programmer("Yassine", 33, arrayOf(Programmer.Language.JAVA, Programmer.Language.KOTLIN))
+        println(yassine.name)
+
+        yassine.age = 40
+        yassine.code()
+
+        val nadia = Programmer("Nadia", 30, arrayOf(Programmer.Language.C), arrayOf(yassine))
+        nadia.code()
+
+        println("${nadia.friends?.first()?.name} is friend of ${nadia.name}")
     }
 }
