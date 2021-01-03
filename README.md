@@ -8,6 +8,7 @@ Increasing the complexity of projects.
   - Using IF / WHEN statements.
   - Using ARRAYS: Adding / Accessing / Modifying / Deleting / Iterating with For each.
   - Viewing how operations are declared for MAPS.
+  - Viewing the declaration of FOR and WHILE loops.
 
 01.KidsOperationsApp
   - 
