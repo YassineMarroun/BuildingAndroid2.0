@@ -9,6 +9,7 @@ Increasing the complexity of projects.
   - Using ARRAYS: Adding / Accessing / Modifying / Deleting / Iterating with For each.
   - Viewing how operations are declared for MAPS.
   - Viewing the declaration of FOR and WHILE loops.
+  - Using NULL Safety.
 
 01.KidsOperationsApp
   - 

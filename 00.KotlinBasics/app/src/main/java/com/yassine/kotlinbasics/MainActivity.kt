@@ -14,7 +14,8 @@ class MainActivity : AppCompatActivity() {
         //whenStatement()
         //arrays()
         //maps()
-        loops()
+        //loops()
+        nullSafety()
     }
 
     /*
@@ -271,6 +272,28 @@ class MainActivity : AppCompatActivity() {
         while (x < 10) {
             println(x)
             x += 2
+        }
+    }
+
+    /*
+    Here we talk about security against null (Null Safety)
+     */
+    private fun nullSafety() {
+
+        //Null safety variable
+        var mySafetyString: String? = "Yassine null safety"
+        mySafetyString = null
+        println(mySafetyString)
+
+        mySafetyString = "Yassine"
+
+        //Safe call
+        println(mySafetyString?.length)
+
+        mySafetyString?.let {
+            println(it)
+        } ?: run {
+            println(mySafetyString)
         }
     }
 }
