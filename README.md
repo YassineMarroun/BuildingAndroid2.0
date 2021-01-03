@@ -10,6 +10,7 @@ Increasing the complexity of projects.
   - Viewing how operations are declared for MAPS.
   - Viewing the declaration of FOR and WHILE loops.
   - Using NULL Safety.
+  - Declaration of methods with input parameters and with a return value.
 
 01.KidsOperationsApp
   - 

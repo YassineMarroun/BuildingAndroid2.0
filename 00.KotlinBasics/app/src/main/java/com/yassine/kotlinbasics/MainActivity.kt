@@ -15,7 +15,8 @@ class MainActivity : AppCompatActivity() {
         //arrays()
         //maps()
         //loops()
-        nullSafety()
+        //nullSafety()
+        methods()
     }
 
     /*
@@ -295,5 +296,47 @@ class MainActivity : AppCompatActivity() {
         } ?: run {
             println(mySafetyString)
         }
+    }
+
+    /*
+    Here we talk about methods
+     */
+    private fun methods() {
+        sayHello()
+        sayHello()
+        sayHello()
+
+        sayMyName("Yassine")
+        sayMyName("Nadia")
+        sayMyName("Aylan")
+
+        sayMyNameAndAge("Yassine", 33)
+
+        val sumResult = sumTwoNumbers(10, 5)
+        println(sumResult)
+
+        println(sumTwoNumbers(15, 9))
+
+        println(sumTwoNumbers(10, sumTwoNumbers(5, 5)))
+    }
+
+    //Simple function
+    private fun sayHello() {
+        println("Hello!")
+    }
+
+    //Function with an input parameter
+    private fun sayMyName(name: String) {
+        println("Hi, my name is $name")
+    }
+
+    //Function with more than one input parameter
+    private fun sayMyNameAndAge(name: String, age: Int) {
+        println("Hi, my name is $name and my age is $age")
+    }
+
+    //Function with a return value
+    private fun sumTwoNumbers(firstNumber: Int, secondNumber: Int) :Int {
+        return firstNumber + secondNumber
     }
 }
