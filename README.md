@@ -1,6 +1,9 @@
 # BuildingAndroid2.0
 Increasing the complexity of projects.
 
+01.KidsOperationsApp
+  - Design of App icon and MainActivity.
+
 00.KotlinBasics
   - Seeing the differences in nomenclature between Kotlin and Java.
   - Basic concepts regarding the naming of variables and constants.
@@ -12,6 +15,3 @@ Increasing the complexity of projects.
   - Using NULL Safety.
   - Declaration of methods with input parameters and with a return value.
   - Adding classes and functionality to the project.
-
-01.KidsOperationsApp
-  - 
