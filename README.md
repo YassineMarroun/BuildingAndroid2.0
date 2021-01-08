@@ -3,6 +3,7 @@ Increasing the complexity of projects.
 
 01.KidsOperationsApp
   - Design of App icon and MainActivity.
+  - Programming the logic side for the graphics.
 
 00.KotlinBasics
   - Seeing the differences in nomenclature between Kotlin and Java.
