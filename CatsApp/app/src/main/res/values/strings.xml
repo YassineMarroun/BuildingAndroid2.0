@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CatsApp</string>
+    <string name="description">description</string>
+    <string name="Button">Generate new</string>
+    <string name="textView">Cat Fact</string>
+    <string name="share">Share</string>
+</resources>
