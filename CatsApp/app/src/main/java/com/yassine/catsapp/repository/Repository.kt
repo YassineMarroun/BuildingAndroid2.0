@@ -14,4 +14,10 @@ class Repository {
     suspend fun getRandomCat(): Response<List<CatImage>> {
         return RetrofitInstance.service.getRandomCat()
     }
+
+    /*
+    suspend fun getRandomCatByCategory(id: Int, options: Map<Int, String>): Response<List<CatImage>> {
+        return RetrofitInstance.service.getRandomCatByCategory(id, options)
+    }
+    */
 }

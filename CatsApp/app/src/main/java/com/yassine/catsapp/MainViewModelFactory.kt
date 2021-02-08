@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.yassine.catsapp.repository.Repository
 
+@Suppress("UNCHECKED_CAST")
 class MainViewModelFactory (
     private val repository: Repository
 ): ViewModelProvider.Factory {

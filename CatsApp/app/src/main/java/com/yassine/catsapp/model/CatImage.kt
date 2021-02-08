@@ -10,6 +10,6 @@ data class CatImage (
 
 data class Breed(
     val id: String,
-    val name: String
+    val name: String,
+    val temperament: String
     )
-

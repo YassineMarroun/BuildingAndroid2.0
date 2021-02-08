@@ -9,8 +9,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 object RetrofitInstance {
 
     private val retrofit by lazy {
-        var client = OkHttpClient.Builder().build()
-        var gSon = GsonBuilder().create()
+        val client = OkHttpClient.Builder().build()
+        val gSon = GsonBuilder().create()
         Retrofit.Builder()
             .baseUrl(BASE_URL)
             .client(client)
