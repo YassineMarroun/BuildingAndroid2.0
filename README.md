@@ -2,7 +2,7 @@
 Increasing the complexity of projects.
 
 02.CatsApp
-  - 
+  - Complete project based on RestAPI.
   - 
 
 01.KidsOperationsApp
