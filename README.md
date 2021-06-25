@@ -1,9 +1,12 @@
 # BuildingAndroid2.0
-Increasing the complexity of projects.
+
+Android Studio as IDE and Kotlin as programming language to build a project based on MVVM design pattern, using libraries Lifecycle, RetroFit and Picasso.
 
 02.CatsApp
-  - Complete project based on RestAPI.
-  - 
+  - When we start the application we get a random image of a cat along with its description.
+  - We have a Get new button, on which we click and we have a new cat next to its description.
+  - We have a Share button in the Action Bar to be able to send the image with its description through other applications.
+  - We also have in the Action Bar another button to save the image in the Gallery of our device.
 
 01.KidsOperationsApp
   - Design of App icon and MainActivity.
